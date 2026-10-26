@@ -3,10 +3,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/health",
-      "destination": "http://pat.hidencloud.com:24688/health"
-    },
-    {
       "source": "/:path*",
       "destination": "http://pat.hidencloud.com:24688/:path*"
     }
